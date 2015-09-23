@@ -1,0 +1,8 @@
+image: bipeen/docker_drone
+name: hello
+script:
+   - mvn clean install
+deploy:
+ bash:
+ script:
+ - mvn tomcat7:run
