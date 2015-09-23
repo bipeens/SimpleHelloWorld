@@ -26,9 +26,6 @@
         <groupId>org.apache.tomcat.maven</groupId>
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.3-SNAPSHOT</version>
-        <configuration>
-          <url>http://www.mydomain.com:1234/mymanager</url>
-        </configuration>
       </plugin>
       </plugins>
     <finalName>SimpleHelloWorld</finalName>
