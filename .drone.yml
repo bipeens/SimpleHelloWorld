@@ -6,8 +6,5 @@ notify:
   email:
     recipients:
       - bipeen.sawant@gslab.com
-deploy:
- bash:
- script:
- - mvn tomcat7:run
+
 
