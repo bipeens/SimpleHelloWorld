@@ -2,7 +2,3 @@ image: bipeen/docker_drone
 name: hello
 script:
    - mvn clean install
-notify:
-  email:
-    recipients:
-      - bipeen.sawant@gslab.com
