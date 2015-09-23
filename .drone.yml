@@ -6,9 +6,4 @@ notify:
   email:
     recipients:
       - bipeen.sawant@gslab.com
-deploy:
- bash:
- script:
- - mvn tomcat7:run
- - docker build -t bipeen/docker_drone
- - docker push bipeen/docker_drone
+
