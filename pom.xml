@@ -29,5 +29,6 @@
       </plugin>
       </plugins>
     <finalName>SimpleHelloWorld</finalName>
+    
   </build>
 </project>
