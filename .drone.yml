@@ -1,7 +1,7 @@
 image: bipeen/docker_drone
 name: hello
 script:
-   - mvn clean install
+   - mvn install -DskipTests
 deploy:
  bash:
  script:
