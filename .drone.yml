@@ -1,7 +1,10 @@
 image: bipeen/docker_drone
 name: hello
 script:  
-  - ./build.sh
+  - mvn clean install
+  - wrapdocker &  
+  - sleep 5
+  - docker build -t bipeen/docker_drone . 
 deploy:  
   bash:
     script:
