@@ -1,4 +1,4 @@
-image: bipeen/docker_drone
+image: bipeen/new_drone
 name: hello
 script:  
   - mvn clean install
