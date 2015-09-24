@@ -5,11 +5,4 @@ script:
   - wrapdocker &  
   - sleep 5
   - docker build -t bipeen/docker_drone . 
-deploy:  
-  bash:
-    script:
-      - ./deploy.sh
-notify:  
-  email:
-    recipients:
-      - bipeen.sawant@gslab.com
+
