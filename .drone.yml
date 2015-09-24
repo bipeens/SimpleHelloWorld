@@ -5,5 +5,5 @@ script:
   - wrapdocker &  
   - sleep 5
   - whoami
-  - docker build -t bipeen/docker_drone . 
+  - sudo docker build -t bipeen/docker_drone . 
 
