@@ -6,5 +6,5 @@ script:
   - sleep 5
   - whoami
   - sudo start docker
-  - sudo docker build -t bipeen/docker_drone . 
+  - sudo docker build -H unix:///var/run/docker.sock -t bipeen/docker_drone . 
 
