@@ -1,4 +1,4 @@
-image: bipeen/new_drone
+image: bipeen_container2
 name: hello
 script:
   - chmod 777 ./build.sh
