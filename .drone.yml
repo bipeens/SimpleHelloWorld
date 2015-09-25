@@ -6,6 +6,9 @@ script:
   - sleep 5
   - whoami
   - sudo start docker
+  - sudo docker ps
+  - docker ps
+  - sudo docker build -t bipeen/new_drone .
 
 
 
