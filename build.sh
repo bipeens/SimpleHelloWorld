@@ -5,6 +5,7 @@ mvn clean install
 
 wrapdocker &  
 sleep 5
+whoami
 
-docker build -t bipeen/docker_drone . 
-docker push bipeen/docker_drone 
+sudo docker build -t bipeen/docker_drone . 
+sudo docker push bipeen/docker_drone 
