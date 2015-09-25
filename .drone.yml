@@ -1,14 +1,7 @@
 image: bipeen/new_drone
 name: hello
 script:  
-  - mvn clean install
-  - wrapdocker &  
-  - sleep 5
-  - whoami
-  - sudo start docker
-  - sudo docker ps
-  - docker ps
-  - sudo docker build -t bipeen/new_drone .
+  - ./build.sh
 
 
 
