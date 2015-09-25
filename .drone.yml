@@ -6,5 +6,14 @@ script:
   - sleep 5
   - whoami
   - sudo start docker
-  - sudo docker build -H unix:///var/run/docker.sock -t bipeen/docker_drone . 
+  
+ deploy:
+  docker:
+    docker_host: https://hub.docker.com/
+    username: bipeen
+    password: brock@202
+    email: bipeen.sawant@gslab.com
+    image_name: bipeen/new_drone
+
+
 
