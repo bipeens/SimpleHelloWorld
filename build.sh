@@ -4,7 +4,9 @@ set -e
 mvn clean install
 
 whoami
-sudo docker start
+ls /usr/local/bin/
+wrapdocker &
+sleep 5
 
 sudo docker ps
 sudo docker images
