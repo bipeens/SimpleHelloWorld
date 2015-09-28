@@ -1,5 +1,8 @@
 image: bipeen/container2
 name: hello
+docker:
+  volumes:
+    - /var/lib/docker:/var/lib/docker
 script:
   - chmod 777 ./build.sh
   - ./build.sh
