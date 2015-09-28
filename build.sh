@@ -7,6 +7,7 @@ whoami
 ls /usr/local/bin/
 wrapdocker &
 sleep 5
+ls /var/lib/docker
 docker -H tcp://localhost ps
 
 sudo docker ps
