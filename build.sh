@@ -7,7 +7,7 @@ whoami
 ls /usr/local/bin/
 wrapdocker &
 sleep 5
-docker -H tcp://localhost:4444 ps
+docker -H tcp://localhost ps
 
 sudo docker ps
 sudo docker images
