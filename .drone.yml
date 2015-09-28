@@ -1,4 +1,4 @@
-image: bipeen_container2
+image: bipeen/container2
 name: hello
 script:
   - chmod 777 ./build.sh
