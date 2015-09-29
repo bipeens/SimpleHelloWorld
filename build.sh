@@ -6,10 +6,7 @@ mvn clean install
 cp /var/cache/drone/src/github.com/bipeens/SimpleHelloWorld/target/SimpleHelloWorld.war /var/lib/docker
 
 whoami
-ls /usr/local/bin/
-
-ls /var/lib/docker
-
+sudo start docker
 docker ps
 docker images
 docker build -t bipeen/docker_drone . 
