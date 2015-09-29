@@ -7,7 +7,7 @@ cp /var/cache/drone/src/github.com/bipeens/SimpleHelloWorld/target/SimpleHelloWo
 
 whoami
 sudo start docker
-docker ps
-docker images
+sudo docker ps
+sudo docker images
 docker build -t bipeen/docker_drone . 
 docker push bipeen/docker_drone 
