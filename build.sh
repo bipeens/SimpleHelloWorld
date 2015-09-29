@@ -7,12 +7,10 @@ cp /var/cache/drone/src/github.com/bipeens/SimpleHelloWorld/target/SimpleHelloWo
 
 whoami
 ls /usr/local/bin/
-wrapdocker &
-sleep 5
-ls /var/lib/docker
-docker -H tcp://localhost ps
 
-sudo docker ps
-sudo docker images
-wrapdocker && docker build -t bipeen/docker_drone . 
-wrapdocker && docker push bipeen/docker_drone 
+ls /var/lib/docker
+
+docker ps
+docker images
+docker build -t bipeen/docker_drone . 
+docker push bipeen/docker_drone 
