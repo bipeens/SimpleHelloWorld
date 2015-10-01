@@ -6,4 +6,8 @@ docker:
 script:
   - chmod 777 ./build.sh
   - ./build.sh
+deploy:
+  script:
+    - chmod 777 ./deploy.sh
+    - ./deploy.sh
   
